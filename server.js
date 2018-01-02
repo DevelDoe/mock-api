@@ -4,7 +4,7 @@
  * @Email:  andreeray@live.com
  * @Filename: server.js
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-01T13:14:05+01:00
+ * @Last modified time: 2018-01-02T08:12:50+01:00
  */
 
 /* dependencies */
@@ -15,7 +15,7 @@ var mongoose    = require('mongoose')
 var User        = require('./models/user')
 
 /* middleware */
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
 /* setup */
