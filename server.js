@@ -4,7 +4,7 @@
  * @Email:  andreeray@live.com
  * @Filename: server.js
  * @Last modified by:   andreeray
- * @Last modified time: 2018-01-02T08:12:50+01:00
+ * @Last modified time: 2018-01-02T08:13:41+01:00
  */
 
 /* dependencies */
@@ -20,7 +20,7 @@ app.use(bodyParser.json())
 
 /* setup */
 var port = process.env.PORT || 3000
-mongoose.connect('mongodb://localhost:27017/mock');
+mongoose.connect('mongodb://localhost:27017/mock')
 
 
 /* Routing */
